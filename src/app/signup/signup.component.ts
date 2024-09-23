@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';  // For ngModel
-import { CommonModule } from '@angular/common'; // For ngIf
+import { FormsModule } from '@angular/forms';  
+import { CommonModule } from '@angular/common'; 
 
 @Component({
   selector: 'app-signup',
-  standalone: true, // Standalone component
-  imports: [FormsModule, CommonModule],  // Import FormsModule and CommonModule
+  standalone: true, 
+  imports: [FormsModule, CommonModule],  
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
